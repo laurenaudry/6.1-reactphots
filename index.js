@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
-import Main from './modules/Main'
-import Albums from './modules/Albums'
+import Main from './lib/Main'
+import Albums from './lib/Albums'
 
 render((
   <Router history={ browserHistory }>
