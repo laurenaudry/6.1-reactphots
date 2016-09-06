@@ -1,7 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Main from './lib/main'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+import Main from './modules/Main'
+import Albums from './modules/Albums'
 
 render((
-  <Main name="Boilerplate"/>
+  <Router history={ browserHistory }>
+    <Route path="/" component={ Main }>
+      <Route path="/Albums/:title" component={ Albums }/>
+    </Route>
+  </Router>
 ), document.getElementById('app'))
