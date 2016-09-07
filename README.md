@@ -1,4 +1,4 @@
-# FEE Boilerplate React/Bable/Webpack 
+# FEE Boilerplate React/Bable/Webpack
 
 ## Initial Setup Gotchas with Babel and Webpack
 ### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
@@ -24,3 +24,14 @@
   - CLI - Command Line Interface - Allows us to write commands in Terminal to execute functions (this is why we use `npm install -g`)
   - Spec - is another word for a file with tests...
   - Spec Helpers - reusable code (functions) for specs...
+
+### to do...
+- [] Make Albums
+ - [x] 6 Albums
+ - [x] 3 pictures each
+ - [] make sizes uniform
+ - [] style page
+- [] sidebar that links all Albums
+- [] modal that opens Individual photos
+ - [] darker background for images
+ - [] back button to go home
