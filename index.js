@@ -1,13 +1,12 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+import { Router, Route, hashHistory } from 'react-router'
 import Main from './lib/Main'
 import Albums from './lib/Albums'
 
 render((
-  <Router history={ browserHistory }>
-    <Route path="/" component={ Main }>
-      <Route path="/Albums/:title" component={ Albums }/>
-    </Route>
+  <Router history={ hashHistory }>
+    <Route path="/" component={ Main }/>
+    <Route path="/Albums/:title" component={ Albums }/>
   </Router>
 ), document.getElementById('app'))
