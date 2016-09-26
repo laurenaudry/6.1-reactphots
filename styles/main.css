@@ -73,7 +73,12 @@ html {
 }
 
 .back {
-  color: black;
+  color: white;
   font-size: 2rem;
   text-decoration: none;
+}
+
+.arrows {
+  color: white;
+  font-size: 3rem;
 }
